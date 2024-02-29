@@ -1,5 +1,5 @@
 {% set name = "pycmtensor" %}
-{% set version = "1.10.0" %}
+{% set version = "1.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycmtensor-{{ version }}.tar.gz
-  sha256: 8d51a472cfb562b72f76b14da17054c73bbf518f7b7826047be53d8b27a38fbc
+  sha256: 3c1e5c4071f814e113c3b32e4b8014a6ac63d80ead47e4a8b7810e9fb15f53fb
 
 build:
   noarch: python
