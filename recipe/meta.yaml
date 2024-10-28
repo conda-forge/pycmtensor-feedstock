@@ -12,15 +12,15 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.11,<4.0
+    - python >=3.11,<3.13
     - poetry-core >=1.0.0
     - pip
   run:
-    - python >=3.11.0,<4.0.0
+    - python >=3.11.0,<3.13
     - aesara 2.9.3
     - numpy 1.25.2
     - scipy 1.11.4
