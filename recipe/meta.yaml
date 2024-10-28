@@ -27,6 +27,7 @@ requirements:
     - pandas 1.5.3
     - seaborn 0.12.2
     - watermark 2.4.3
+    - scikit-learn 1.5.2
 
 test:
   imports:
